@@ -7,6 +7,8 @@ This Privacy Policy describes how **Studenton** ("we", "our", or "us") collects,
 
 By using the App you agree to the practices described in this policy. If you do not agree, please discontinue use of the App.
 
+This Privacy Policy should be read together with our **[Terms of Service](terms-of-service.md)**, which set rules for using the App (including forums and the private tutor marketplace).
+
 ---
 
 ## 1. Who We Are
@@ -95,6 +97,15 @@ Examples of data that typically remain **on-device** unless you explicitly uploa
 - We **do not** embed third-party **advertising** or **analytics** SDKs for behavioral tracking in the App.
 - When you use online features, **standard technical information** is processed automatically as part of operating any internet service — for example **IP address**, timestamps, and request metadata — by us and by our infrastructure providers (such as **Supabase** and hosting networks) for **security**, **fraud prevention**, **reliability**, and **legal compliance**. We do not sell this information.
 
+### 2.10 Bug reports and support
+
+If you send a **bug report** from the App, we process:
+
+- The **message text** you enter (please avoid including passwords, payment details, or unnecessary personal data).
+- **Account-related identifiers** needed to route the report (for example your **email address** or user ID associated with your session), so we can investigate and reply if needed.
+
+Reports are submitted through **Supabase Edge Functions** and may be delivered to our **support email inbox** via an email provider (for example SMTP). That provider processes the message in transit according to its own terms. We use this information only to **diagnose issues, improve the App, and respond to you** where appropriate.
+
 ---
 
 ## 3. How We Use Your Information
@@ -109,6 +120,7 @@ We use personal information to:
 | Store and display profile and content you choose to publish | Performance of a contract; consent where required (e.g. certain optional uploads) |
 | Secure the service and troubleshoot errors | Legitimate interests |
 | Comply with law and respond to lawful requests | Legal obligation |
+| Review bug reports and provide support | Legitimate interests / performance of a contract |
 
 We **do not** sell your personal information. We **do not** use your data for third-party advertising profiling.
 
@@ -120,6 +132,7 @@ We **do not** sell your personal information. We **do not** use your data for th
 - **Sign-in providers:** **Apple** and **Google** process authentication according to their policies: [Apple Privacy](https://www.apple.com/legal/privacy/), [Google Privacy](https://policies.google.com/privacy)
 - **Other users:** Content you **publish** in the forum or tutor listings may be visible to other App users as designed.
 - **Legal & safety:** We may disclose information if required by law, or if we reasonably believe disclosure is necessary to protect rights, safety, or the integrity of the service.
+- **Email delivery:** Bug reports may be transmitted to our team through an email / SMTP provider; that provider sees the content of the report as part of delivery.
 
 ---
 
