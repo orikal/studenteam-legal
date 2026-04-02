@@ -1,15 +1,15 @@
-# Terms of Service — Studenton
+# Terms of Service — StudenTeam
 
 **Effective Date:** April 2, 2026  
 **Last Updated:** April 2, 2026
 
-Please read these Terms of Service ("Terms") carefully before using the **Studenton** mobile application ("App"). By downloading, installing, or using the App, you agree to be bound by these Terms.
+Please read these Terms of Service ("Terms") carefully before using the **StudenTeam** mobile application ("App"). By downloading, installing, or using the App, you agree to be bound by these Terms.
 
 ---
 
 ## 1. Acceptance of Terms
 
-By accessing or using Studenton, you confirm that:
+By accessing or using StudenTeam, you confirm that:
 
 - You are at least **13 years of age** (or the minimum age of digital consent in your country).
 - You have read, understood, and agree to these Terms and our [Privacy Policy](./privacy-policy.md).
@@ -19,7 +19,7 @@ By accessing or using Studenton, you confirm that:
 
 ## 2. Description of the Service
 
-Studenton provides tools for **personal academic organization** and optional **community features**, including:
+StudenTeam provides tools for **personal academic organization** and optional **community features**, including:
 
 - Managing courses, exams, assignments, grades, and schedules.
 - Tracking study sessions and viewing calendars.
@@ -31,7 +31,7 @@ Studenton provides tools for **personal academic organization** and optional **c
 
 The App is provided for **personal, non-commercial educational use** unless we expressly agree otherwise in writing.
 
-**No on-app payments:** Studenton does **not** process payments for lessons or tutor services inside the App. Any fees, meetings, or contracts are **solely between you and the other party** outside the App. Display of rates or prices in listings or scheduling flows is **informational** and does not create a payment obligation processed by us.
+**No on-app payments:** StudenTeam does **not** process payments for lessons or tutor services inside the App. Any fees, meetings, or contracts are **solely between you and the other party** outside the App. Display of rates or prices in listings or scheduling flows is **informational** and does not create a payment obligation processed by us.
 
 ---
 
@@ -47,7 +47,7 @@ You may register using an **email and password**, **Sign in with Apple**, or **G
 
 ### 3.2 Account security
 
-Notify us immediately at **contact@studenton.app** if you suspect unauthorized access. We are not liable for losses resulting from unauthorized use of your credentials.
+Notify us immediately at **contact@studenteam.app** if you suspect unauthorized access. We are not liable for losses resulting from unauthorized use of your credentials.
 
 ### 3.3 One account per person
 
@@ -124,7 +124,7 @@ The App (code, design, branding, and original materials excluding your User Cont
 
 ### 7.2 Copyright complaints
 
-If you believe content in the App infringes your copyright, send a notice to **contact@studenton.app** with enough detail for us to locate the material and evaluate the claim. We may remove or disable access to allegedly infringing content when appropriate.
+If you believe content in the App infringes your copyright, send a notice to **contact@studenteam.app** with enough detail for us to locate the material and evaluate the claim. We may remove or disable access to allegedly infringing content when appropriate.
 
 ### 7.3 Feedback
 
@@ -158,7 +158,7 @@ Some jurisdictions do not allow certain limitations; in those cases, our liabili
 
 ## 11. Indemnification
 
-You agree to indemnify and hold harmless Studenton, its operator, and affiliates from claims, damages, liabilities, and expenses (including reasonable legal fees) arising from:
+You agree to indemnify and hold harmless StudenTeam, its operator, and affiliates from claims, damages, liabilities, and expenses (including reasonable legal fees) arising from:
 
 - Your use of the App in violation of these Terms.
 - Your User Content.
@@ -171,7 +171,7 @@ You agree to indemnify and hold harmless Studenton, its operator, and affiliates
 
 ### 12.1 By you
 
-You may stop using the App at any time. You may request account deletion as described in the App or by contacting **contact@studenton.app**.
+You may stop using the App at any time. You may request account deletion as described in the App or by contacting **contact@studenteam.app**.
 
 ### 12.2 By us
 
@@ -201,7 +201,7 @@ We may revise these Terms at any time. We will update the **Last Updated** date.
 
 If you obtained the App through the **Apple App Store**, you acknowledge that:
 
-- These Terms are between you and Studenton, not Apple.
+- These Terms are between you and StudenTeam, not Apple.
 - Apple has **no obligation** to provide maintenance or support for the App.
 - **Apple is not responsible** for the App or its content, except as required by Apple's App Store terms.
 - In case of failure to conform to a valid warranty, you may notify Apple; Apple may refund the purchase price (if any) subject to Apple's policies. To the maximum extent permitted by law, **Apple has no other warranty obligation** regarding the App.
@@ -211,9 +211,9 @@ If you obtained the App through the **Apple App Store**, you acknowledge that:
 
 ## 16. Contact
 
-**Email:** contact@studenton.app  
-**App:** Studenton  
+**Email:** contact@studenteam.app  
+**App:** StudenTeam  
 
 ---
 
-*Thank you for using Studenton.*
+*Thank you for using StudenTeam.*

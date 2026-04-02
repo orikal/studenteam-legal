@@ -1,6 +1,6 @@
-# Studenton — Legal Documents
+# StudenTeam — Legal Documents
 
-This repository hosts the public legal documents for the **Studenton** mobile app (iOS App Store and, where applicable, Google Play).
+This repository hosts the public legal documents for the **StudenTeam** mobile app (iOS App Store and, where applicable, Google Play).
 
 ## Documents
 
@@ -20,5 +20,5 @@ Use these URLs in **App Store Connect**:
 
 ## Contact
 
-- Privacy inquiries: privacy@studenton.app
-- General: contact@studenton.app
+- Privacy inquiries: privacy@studenteam.app
+- General: contact@studenteam.app

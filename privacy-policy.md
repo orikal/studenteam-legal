@@ -1,9 +1,9 @@
-# Privacy Policy — Studenton
+# Privacy Policy — StudenTeam
 
 **Effective Date:** April 2, 2026  
 **Last Updated:** April 2, 2026
 
-This Privacy Policy describes how **Studenton** ("we", "our", or "us") collects, uses, stores, and protects personal information about users ("you") of the Studenton mobile application ("App").
+This Privacy Policy describes how **StudenTeam** ("we", "our", or "us") collects, uses, stores, and protects personal information about users ("you") of the StudenTeam mobile application ("App").
 
 By using the App you agree to the practices described in this policy. If you do not agree, please discontinue use of the App.
 
@@ -13,10 +13,10 @@ This Privacy Policy should be read together with our **[Terms of Service](terms-
 
 ## 1. Who We Are
 
-Studenton is a student-organizer and academic community application developed and operated by **Ori**.
+StudenTeam is a student-organizer and academic community application developed and operated by **Ori**.
 
-- **Privacy contact:** [privacy@studenton.app](mailto:privacy@studenton.app)  
-- **General contact:** [contact@studenton.app](mailto:contact@studenton.app)
+- **Privacy contact:** [privacy@studenteam.app](mailto:privacy@studenteam.app)  
+- **General contact:** [contact@studenteam.app](mailto:contact@studenteam.app)
 
 The App is distributed on **iOS** (Apple App Store) and may also be available on **Android**. This policy applies regardless of platform.
 
@@ -185,7 +185,7 @@ No method of transmission or storage is 100% secure; we encourage strong passwor
 
 ## 8. Children's privacy
 
-The App is **not directed at children under 13** (or the minimum age required in your jurisdiction). We do not knowingly collect personal information from children below that age. If you believe we have done so, contact **privacy@studenton.app** and we will take appropriate steps to delete the information.
+The App is **not directed at children under 13** (or the minimum age required in your jurisdiction). We do not knowingly collect personal information from children below that age. If you believe we have done so, contact **privacy@studenteam.app** and we will take appropriate steps to delete the information.
 
 ---
 
@@ -193,11 +193,11 @@ The App is **not directed at children under 13** (or the minimum age required in
 
 Depending on your location, you may have rights to **access**, **rectify**, **delete**, **restrict**, or **object** to certain processing, and **data portability**. You may also withdraw consent where processing is consent-based.
 
-To exercise these rights, contact **privacy@studenton.app**. We will respond within **30 days** where applicable law requires it.
+To exercise these rights, contact **privacy@studenteam.app**. We will respond within **30 days** where applicable law requires it.
 
 If you are in the **EEA/UK**, you may lodge a complaint with your local data protection authority.
 
-**California residents (summary):** You may have rights under the **CCPA/CPRA** (for example to know, delete, and opt out of sale/sharing). We do not sell personal information as defined by California law. To submit a request, email **privacy@studenton.app**.
+**California residents (summary):** You may have rights under the **CCPA/CPRA** (for example to know, delete, and opt out of sale/sharing). We do not sell personal information as defined by California law. To submit a request, email **privacy@studenteam.app**.
 
 ---
 
@@ -223,9 +223,9 @@ We may update this Privacy Policy from time to time. We will update the **Last U
 
 ## 13. Contact
 
-**Privacy:** [privacy@studenton.app](mailto:privacy@studenton.app)  
-**General:** [contact@studenton.app](mailto:contact@studenton.app)  
-**App name:** Studenton  
+**Privacy:** [privacy@studenteam.app](mailto:privacy@studenteam.app)  
+**General:** [contact@studenteam.app](mailto:contact@studenteam.app)  
+**App name:** StudenTeam  
 
 ---
 
