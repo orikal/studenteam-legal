@@ -1,7 +1,7 @@
 # Terms of Service — Studenton
 
-**Effective Date:** March 31, 2026  
-**Last Updated:** March 31, 2026
+**Effective Date:** April 2, 2026  
+**Last Updated:** April 2, 2026
 
 Please read these Terms of Service ("Terms") carefully before using the **Studenton** mobile application ("App"). By downloading, installing, or using the App, you agree to be bound by these Terms.
 
@@ -25,11 +25,13 @@ Studenton provides tools for **personal academic organization** and optional **c
 - Tracking study sessions and viewing calendars.
 - Creating practice questions and related study content.
 - Participating in **subject-based forums** (posts, replies, attachments).
+- **Private direct messaging** with other users (one-to-one conversations, including optional images), subject to technical limits and safety tools we provide (for example blocking).
 - Browsing or publishing listings in a **private tutor marketplace** section intended to help students and tutors find each other (informational listings — see Section 6).
+- **Optional in-app coordination** of suggested lesson times between students and private tutors (proposals, responses, and related status). This is for **scheduling coordination only**.
 
 The App is provided for **personal, non-commercial educational use** unless we expressly agree otherwise in writing.
 
-**No on-app payments:** Studenton does **not** process payments for lessons or tutor services inside the App. Any fees, meetings, or contracts are **solely between you and the other party** outside the App.
+**No on-app payments:** Studenton does **not** process payments for lessons or tutor services inside the App. Any fees, meetings, or contracts are **solely between you and the other party** outside the App. Display of rates or prices in listings or scheduling flows is **informational** and does not create a payment obligation processed by us.
 
 ---
 
@@ -58,10 +60,10 @@ Each user may maintain only one account. Creating multiple accounts for deceptiv
 You agree to use the App only for lawful purposes. You must **not**:
 
 - Violate applicable laws or regulations (including those in **Israel** and your own jurisdiction).
-- Harass, threaten, defame, discriminate, or harm others.
-- Post **unlawful, infringing, hateful, sexually explicit involving minors, violent, or otherwise objectionable** content.
+- Harass, threaten, defame, discriminate, or harm others (including through **forum posts, listings, direct messages, or session coordination**).
+- Post or send **unlawful, infringing, hateful, sexually explicit involving minors, violent, or otherwise objectionable** content.
 - Share academic work in a way that **violates academic integrity rules** of your institution or facilitates cheating.
-- Attempt unauthorized access to the App, other users’ private data, or our infrastructure.
+- Attempt unauthorized access to the App, other users' private data, or our infrastructure.
 - Reverse-engineer, decompile, or disassemble the App except where mandatory law allows.
 - Use bots, scrapers, or automated means to access the service without our prior written consent.
 - Impersonate any person or entity or misrepresent your affiliation.
@@ -74,15 +76,15 @@ You agree to use the App only for lawful purposes. You must **not**:
 
 ### 5.1 Your content
 
-**Organizer data** (courses, grades, private notes, etc.) belongs to you. **Forum posts, replies, attachments, and tutor listings** you submit are "User Content."
+**Organizer data** (courses, grades, private notes, etc.) belongs to you. **Forum posts, replies, attachments, tutor listings, direct messages you send, and content you submit in scheduling flows** are "User Content."
 
 ### 5.2 License to us
 
-You grant us a **non-exclusive, worldwide, royalty-free license** to host, store, reproduce, display, and distribute your User Content **solely** to operate, improve, secure, and promote the App and its features (including showing your posts to other users as designed).
+You grant us a **non-exclusive, worldwide, royalty-free license** to host, store, reproduce, display, and distribute your User Content **solely** to operate, improve, secure, and promote the App and its features (including showing your posts to other users as designed, delivering messages to your conversation partner, and operating scheduling tools).
 
 ### 5.3 Responsibility
 
-You are solely responsible for your User Content and the consequences of posting it. We do **not** pre-screen all content but may moderate as described in Section 6.
+You are solely responsible for your User Content and the consequences of posting or sending it. We do **not** pre-screen all content but may moderate as described in Section 6.
 
 ### 5.4 Representations
 
@@ -94,7 +96,7 @@ You represent that you have the rights to submit your User Content and that it d
 
 ### 6.1 Public visibility
 
-Forum and marketplace content you publish may be visible to **other users**. Do not post personal data you are not willing to share (yours or anyone else’s).
+Forum and marketplace content you publish may be visible to **other users**. Do not post personal data you are not willing to share (yours or anyone else's).
 
 ### 6.2 Moderation
 
@@ -107,6 +109,10 @@ The App provides mechanisms to **report** concerning content or behavior. We wil
 ### 6.4 Private tutor marketplace disclaimer
 
 Listings are **informational**. We do **not** employ tutors, verify credentials as an authority, guarantee results, or endorse any user. **You are solely responsible** for vetting tutors or students and for any agreements, payments, meetings, or disputes. Use caution when sharing contact details or meeting in person.
+
+### 6.5 Direct messages and scheduling
+
+**Direct messages** are intended to be visible to you and your conversation partner only, but you should assume that **reported content** may be reviewed by us and that **legal process** could require disclosure where applicable. **Scheduling and session proposals** do not guarantee that a lesson will occur or that terms (including payment) will be honored; those arrangements are **between you and the other user** outside our payment systems.
 
 ---
 
@@ -142,7 +148,7 @@ We do not warrant uninterrupted, error-free, or secure operation. **Grade calcul
 
 ## 10. Limitation of liability
 
-TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, WE SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING LOSS OF DATA, LOSS OF PROFITS, OR PERSONAL INJURY ARISING FROM USE OF THE APP, **INCLUDING INTERACTIONS WITH OTHER USERS OR TUTORS**.
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, WE SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING LOSS OF DATA, LOSS OF PROFITS, OR PERSONAL INJURY ARISING FROM USE OF THE APP, **INCLUDING INTERACTIONS WITH OTHER USERS OR TUTORS (INCLUDING VIA MESSAGES OR SCHEDULING)**.
 
 OUR TOTAL LIABILITY FOR ANY CLAIM ARISING FROM THESE TERMS OR THE APP SHALL NOT EXCEED THE GREATER OF **(A)** THE AMOUNTS YOU PAID US FOR THE APP IN THE **TWELVE (12) MONTHS** BEFORE THE CLAIM, OR **(B)** **ZERO** IF YOU PAID NOTHING.
 
@@ -197,8 +203,8 @@ If you obtained the App through the **Apple App Store**, you acknowledge that:
 
 - These Terms are between you and Studenton, not Apple.
 - Apple has **no obligation** to provide maintenance or support for the App.
-- **Apple is not responsible** for the App or its content, except as required by Apple’s App Store terms.
-- In case of failure to conform to a valid warranty, you may notify Apple; Apple may refund the purchase price (if any) subject to Apple’s policies. To the maximum extent permitted by law, **Apple has no other warranty obligation** regarding the App.
+- **Apple is not responsible** for the App or its content, except as required by Apple's App Store terms.
+- In case of failure to conform to a valid warranty, you may notify Apple; Apple may refund the purchase price (if any) subject to Apple's policies. To the maximum extent permitted by law, **Apple has no other warranty obligation** regarding the App.
 - Apple and its subsidiaries are **third-party beneficiaries** of these Terms solely with respect to your acceptance of the above, and Apple may enforce them.
 
 ---
