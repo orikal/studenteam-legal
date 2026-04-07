@@ -23,6 +23,7 @@
     .meta { color: #64748b; font-size: 14px; margin-bottom: 40px; }
     h2 { font-size: 18px; font-weight: 600; margin-top: 40px; margin-bottom: 12px; color: #1e293b; }
     h3 { font-size: 15px; font-weight: 600; margin-top: 24px; margin-bottom: 8px; color: #334155; }
+    h4 { font-size: 14px; font-weight: 600; margin-top: 20px; margin-bottom: 8px; color: #475569; }
     p { font-size: 15px; line-height: 1.7; color: #334155; margin-bottom: 12px; }
     ul, ol { padding-left: 20px; margin-bottom: 12px; }
     li { font-size: 15px; line-height: 1.7; color: #334155; margin-bottom: 4px; }
@@ -32,6 +33,9 @@
     td { padding: 10px 14px; border: 1px solid #e2e8f0; vertical-align: top; }
     hr { border: none; border-top: 1px solid #e2e8f0; margin: 32px 0; }
     .card { background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px 28px; }
+    
+    strong { font-weight: 600; }
+    em { font-style: italic; }
   </style>
 </head>
 <body>
@@ -39,219 +43,352 @@
     <a class="back" href="index.html">← Back to Legal Documents</a>
     <div class="card">
       <h1>Privacy Policy</h1>
-      <div class="meta">Effective Date: April 2, 2026 &nbsp;·&nbsp; Last Updated: April 2, 2026</div>
+      <div class="meta">Effective Date: April 7, 2026 &nbsp;·&nbsp; Last Updated: April 7, 2026</div>
       <p>This Privacy Policy describes how <strong>StudenTeam</strong> (&quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) collects, uses, stores, and protects personal information about users (&quot;you&quot;) of the StudenTeam mobile application (&quot;App&quot;).</p>
       <p>By using the App you agree to the practices described in this policy. If you do not agree, please discontinue use of the App.</p>
-      <p>This Privacy Policy should be read together with our <strong><a href="terms-of-service.html">Terms of Service</a></strong>, which set rules for using the App (including forums, private messaging, tutor session coordination, and the private tutor marketplace).</p>
+      <p>This Privacy Policy should be read together with our <strong><a href="terms-of-service.md">Terms of Service</a></strong>, which set rules for using the App (including forums, private messaging, tutor session coordination, and the private tutor marketplace).</p>
       <hr>
-<h2>1. Who We Are</h2>
-<p>StudenTeam is a student-organizer and academic community application developed and operated by <strong>Ori</strong>.</p>
-<ul>
-<li><strong>Privacy contact:</strong> <a href="mailto:privacy@studenteam.app">privacy@studenteam.app</a></li>
-<li><strong>General contact:</strong> <a href="mailto:contact@studenteam.app">contact@studenteam.app</a></li>
-</ul>
-<p>The App is distributed on <strong>iOS</strong> (Apple App Store) and may also be available on <strong>Android</strong>. This policy applies regardless of platform.</p>
-<hr>
-<h2>2. Information We Collect</h2>
-<h3>2.1 Account &amp; authentication</h3>
-<p>When you create an account or sign in, we process:</p>
-<table>
-<thead>
-<tr>
-<th>Data</th>
-<th>Purpose</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Email address</strong></td>
-<td>Account identity, sign-in, and essential service messages (e.g. verification).</td>
-</tr>
-<tr>
-<td><strong>Authentication credentials</strong></td>
-<td>Password-based sign-in is handled by <strong>Supabase Auth</strong> (passwords are hashed; we do not store plaintext passwords).</td>
-</tr>
-<tr>
-<td><strong>Session tokens</strong></td>
-<td>Stored on your device using secure storage (<strong>expo-secure-store</strong>, backed by the device keychain / secure hardware where available) to keep you signed in.</td>
-</tr>
-<tr>
-<td><strong>OAuth profile data</strong></td>
-<td>If you use <strong>Sign in with Apple</strong> or <strong>Google</strong>, we receive identifiers and profile elements that those providers share with us (for example name, email as permitted by the provider, and profile image URL where applicable), in line with each provider&apos;s settings and policies.</td>
-</tr>
-</tbody>
-</table>
-<p>We do <strong>not</strong> receive your Apple or Google account password.</p>
-<h3>2.2 Profile &amp; account settings (stored with your account)</h3>
-<p>The following may be stored in our database (Supabase) and linked to your user account:</p>
-<ul>
-<li><strong>Display name</strong> &mdash; shown in the App and, when you use community features, may be visible to other users (for example next to forum posts or in message threads).</li>
-<li><strong>Profile photo</strong> &mdash; if you upload an image or use a provider profile picture we sync, the image URL or file may be stored in our systems (including file storage) and can be visible to other users where the App shows your profile in community areas or conversations.</li>
-<li><strong>Institution</strong> &mdash; optional link to an academic institution from our reference list.</li>
-<li><strong>Account role</strong> &mdash; for example <strong>student</strong> or <strong>private tutor</strong>, used to label content and enable tutor-related features.</li>
-<li><strong>Locale and timezone</strong> &mdash; used to present the App appropriately (defaults may apply if not set).</li>
-</ul>
-<h3>2.3 Optional details stored only on your device</h3>
-<p>Certain extended profile fields (for example full name, age, city, degree details, study year, semester preferences, and tutor subject/course selections used in onboarding flows) are stored <strong>locally on your device</strong> (for example via <strong>AsyncStorage</strong>) and are <strong>not</strong> uploaded to our servers as part of that local profile store. If you separately choose to publish information in the forum or tutor listings, or send it in a private message, that content is stored on our servers as described below.</p>
-<h3>2.4 Academic &amp; organizer data (your account, cloud-synced)</h3>
-<p>Data you enter into organizer features is stored in your account on our backend so it can sync across devices. This includes, depending on what you use:</p>
-<ul>
-<li><strong>Courses</strong> &mdash; name, code, credits, year, semester, grades, labels, etc.</li>
-<li><strong>Exams</strong> &mdash; titles, dates, times, locations, notes, links to courses.</li>
-<li><strong>Assignments</strong> &mdash; titles, due dates, status, notes, course links.</li>
-<li><strong>Schedule</strong> &mdash; slots, times, locations, notes.</li>
-<li><strong>Grades</strong> &mdash; entries, weights, scores, dates.</li>
-<li><strong>Study sessions</strong> &mdash; timing, duration, mode, linked courses.</li>
-<li><strong>Gamification / stats</strong> &mdash; for example streaks, points, levels associated with your account.</li>
-<li><strong>Practice / questions</strong> &mdash; content you create for self-study (prompts, answers, difficulty, course links), where you use those features.</li>
-</ul>
-<h3>2.5 Community forum &amp; user-generated content</h3>
-<p>If you use the <strong>forum</strong> or related features, we store content you submit on our servers, including:</p>
-<ul>
-<li><strong>Posts and replies</strong> &mdash; text, images, and file attachments you upload.</li>
-<li><strong>Metadata</strong> &mdash; subject/course association, post type, timestamps, moderation status, and similar fields required to operate the forum.</li>
-<li><strong>Tutor marketplace listings</strong> &mdash; posts intended to connect students and private tutors (for example offers or requests); may include descriptive text, pricing indications you type, teaching mode, and attachments you choose to upload.</li>
-</ul>
-<p>Forum content you publish may be <strong>visible to other users</strong> of the App according to how the feature is designed (for example by subject or listing type). Your <strong>display name</strong> and <strong>profile image</strong> (if any) may appear alongside your content.</p>
-<p>We process forum submissions through <strong>Supabase Edge Functions</strong> and related server-side logic for validation, safety, and abuse prevention.</p>
-<h3>2.6 Private tutor profile documents</h3>
-<p>If you register as a <strong>private tutor</strong> and upload optional documents (for example a CV or certification), those files may be stored in <strong>Supabase Storage</strong> and associated with your tutor profile. Access is governed by our security rules; such materials are intended to support your public tutor presence inside the App where you enable it.</p>
-<h3>2.7 Private direct messages</h3>
-<p>If you use <strong>private messaging</strong> (one-to-one conversations with other users), we store on our servers:</p>
-<ul>
-<li><strong>Conversation records</strong> &mdash; identifiers linking you and the other participant, timestamps, and optional link to a related forum post if the conversation was started from a post.</li>
-<li><strong>Messages</strong> &mdash; text you send and optional <strong>image attachments</strong> (image URLs or stored files, depending on how the feature is implemented).</li>
-<li><strong>Delivery and read state</strong> &mdash; for example when a message was read, as needed to show read status in the App.</li>
-<li><strong>Blocking</strong> &mdash; if you block another user for messaging, we store that relationship so the App can enforce blocks.</li>
-</ul>
-<p>Direct messages are <strong>not</strong> published to the forum; they are intended to be visible <strong>only to you and the other participant</strong> in that conversation (and to our systems as needed to operate the feature, secure the service, and handle abuse reports).</p>
-<p>We may process messages through <strong>Supabase</strong> (database, storage, and server-side functions) for delivery, moderation when reported, and safety.</p>
-<h3>2.8 Tutor session coordination (in-app scheduling)</h3>
-<p>The App may allow students and private tutors to <strong>coordinate lesson times</strong> (for example proposals, confirmations, rescheduling, or cancellation of suggested sessions) and to display <strong>context such as an hourly rate</strong> for scheduling purposes. Related records (status, times, participants, link to a forum post or conversation) may be stored in our database. This feature is for <strong>coordination only</strong>; the App does <strong>not</strong> process payments for lessons (see our Terms of Service).</p>
-<h3>2.9 In-app notifications about forum activity</h3>
-<p>We store <strong>in-app notification records</strong> (for example when someone replies to a thread you participate in) so the App can show you an activity list. These records are tied to your account. This is separate from <strong>local</strong> assignment reminders scheduled on your device (see Section 10).</p>
-<p>We may also store <strong>notification helper records</strong> for new direct messages so the App can alert you (for example to trigger a <strong>local notification</strong> on your device when you are not actively viewing the conversation).</p>
-<h3>2.10 Local device data (not sent to us)</h3>
-<p>Examples of data that typically remain <strong>on-device</strong> unless you explicitly upload or publish something:</p>
-<ul>
-<li>Preferences for <strong>local assignment reminders</strong> (scheduled notification identifiers mapped to your assignments).</li>
-<li>Cached copies of files you open for your own use.</li>
-<li>Local keys for app preferences.</li>
-</ul>
-<h3>2.11 Technical &amp; automatic data</h3>
-<ul>
-<li>We <strong>do not</strong> embed third-party <strong>advertising</strong> or <strong>analytics</strong> SDKs for behavioral tracking in the App.</li>
-<li>When you use online features, <strong>standard technical information</strong> is processed automatically as part of operating any internet service &mdash; for example <strong>IP address</strong>, timestamps, and request metadata &mdash; by us and by our infrastructure providers (such as <strong>Supabase</strong> and hosting networks) for <strong>security</strong>, <strong>fraud prevention</strong>, <strong>reliability</strong>, and <strong>legal compliance</strong>. We do not sell this information.</li>
-</ul>
-<h3>2.12 Bug reports and support</h3>
-<p>If you send a <strong>bug report</strong> from the App, we process:</p>
-<ul>
-<li>The <strong>message text</strong> you enter (please avoid including passwords, payment details, or unnecessary personal data).</li>
-<li><strong>Account-related identifiers</strong> needed to route the report (for example your <strong>email address</strong> or user ID associated with your session), so we can investigate and reply if needed.</li>
-</ul>
-<p>Reports are submitted through <strong>Supabase Edge Functions</strong> and may be delivered to our <strong>support email inbox</strong> via an email provider (for example SMTP). That provider processes the message in transit according to its own terms. We use this information only to <strong>diagnose issues, improve the App, and respond to you</strong> where appropriate.</p>
-<hr>
-<h2>3. How We Use Your Information</h2>
-<p>We use personal information to:</p>
-<table>
-<thead>
-<tr>
-<th>Purpose</th>
-<th>Typical legal basis (where GDPR applies)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Provide sign-in, sync, and core organizer features</td>
-<td>Performance of a contract / steps at your request</td>
-</tr>
-<tr>
-<td>Operate the forum, marketplace listings, direct messaging, tutor coordination, and in-app notifications</td>
-<td>Performance of a contract; legitimate interests in operating a safe community</td>
-</tr>
-<tr>
-<td>Moderate content, enforce rules, respond to reports</td>
-<td>Legitimate interests; legal obligations</td>
-</tr>
-<tr>
-<td>Store and display profile and content you choose to publish or send</td>
-<td>Performance of a contract; consent where required (e.g. certain optional uploads)</td>
-</tr>
-<tr>
-<td>Secure the service and troubleshoot errors</td>
-<td>Legitimate interests</td>
-</tr>
-<tr>
-<td>Comply with law and respond to lawful requests</td>
-<td>Legal obligation</td>
-</tr>
-<tr>
-<td>Review bug reports and provide support</td>
-<td>Legitimate interests / performance of a contract</td>
-</tr>
-</tbody>
-</table>
-<p>We <strong>do not</strong> sell your personal information. We <strong>do not</strong> use your data for third-party advertising profiling.</p>
-<hr>
-<h2>4. How Information Is Shared</h2>
-<ul>
-<li><strong>Service providers (processors):</strong> We use <strong>Supabase</strong> for database, authentication, file storage, and server-side functions. They process data on our instructions. Their privacy policy: <a href="https://supabase.com/privacy">https://supabase.com/privacy</a></li>
-<li><strong>Sign-in providers:</strong> <strong>Apple</strong> and <strong>Google</strong> process authentication according to their policies: <a href="https://www.apple.com/legal/privacy/">Apple Privacy</a>, <a href="https://policies.google.com/privacy">Google Privacy</a></li>
-<li><strong>Other users:</strong> Content you <strong>publish</strong> in the forum or tutor listings may be visible to other App users as designed. <strong>Direct messages</strong> are shared only with the <strong>other participant(s)</strong> in that conversation as described in Section 2.7.</li>
-<li><strong>Legal &amp; safety:</strong> We may disclose information if required by law, or if we reasonably believe disclosure is necessary to protect rights, safety, or the integrity of the service.</li>
-<li><strong>Email delivery:</strong> Bug reports may be transmitted to our team through an email / SMTP provider; that provider sees the content of the report as part of delivery.</li>
-</ul>
-<hr>
-<h2>5. Data location &amp; international transfers</h2>
-<p>Your data is processed using cloud infrastructure operated by <strong>Supabase</strong> and may be stored or processed in the regions configured for our project (potentially including the <strong>European Union</strong> or other regions Supabase supports). If you are outside those regions, your information may be <strong>transferred internationally</strong>. We rely on appropriate safeguards where required (such as standard contractual clauses or equivalent mechanisms offered by our providers).</p>
-<hr>
-<h2>6. Data retention</h2>
-<ul>
-<li>We retain account and content data <strong>while your account is active</strong> and as needed to provide the service.</li>
-<li>If you <strong>delete your account</strong>, we will delete or anonymize associated personal data within a reasonable period, generally <strong>within 30 days</strong>, subject to backup cycles and legal retention needs.</li>
-<li><strong>Forum content</strong> or <strong>messages</strong> you sent may have been seen or copied by others before deletion; we cannot control copies outside our systems.</li>
-<li>Local on-device data remains until you uninstall the App or clear app storage.</li>
-</ul>
-<hr>
-<h2>7. Security</h2>
-<p>We implement appropriate technical and organizational measures, including:</p>
-<ul>
-<li><strong>Encryption in transit (TLS/HTTPS)</strong> for network communication.</li>
-<li><strong>Secure credential storage</strong> on device for session material.</li>
-<li><strong>Database access controls</strong> (including row-level security patterns) so users cannot read other users&apos; <strong>private</strong> organizer data or <strong>other users&apos; direct messages</strong>.</li>
-<li><strong>Community content</strong> is intentionally readable by other users <strong>only</strong> where the product exposes it (forum / listings), not your private grades or personal planner data.</li>
-</ul>
-<p>No method of transmission or storage is 100% secure; we encourage strong passwords and device security.</p>
-<hr>
-<h2>8. Children&apos;s privacy</h2>
-<p>The App is <strong>not directed at children under 13</strong> (or the minimum age required in your jurisdiction). We do not knowingly collect personal information from children below that age. If you believe we have done so, contact <strong>privacy@studenteam.app</strong> and we will take appropriate steps to delete the information.</p>
-<hr>
-<h2>9. Your rights</h2>
-<p>Depending on your location, you may have rights to <strong>access</strong>, <strong>rectify</strong>, <strong>delete</strong>, <strong>restrict</strong>, or <strong>object</strong> to certain processing, and <strong>data portability</strong>. You may also withdraw consent where processing is consent-based.</p>
-<p>To exercise these rights, contact <strong>privacy@studenteam.app</strong>. We will respond within <strong>30 days</strong> where applicable law requires it.</p>
-<p>If you are in the <strong>EEA/UK</strong>, you may lodge a complaint with your local data protection authority.</p>
-<p><strong>California residents (summary):</strong> You may have rights under the <strong>CCPA/CPRA</strong> (for example to know, delete, and opt out of sale/sharing). We do not sell personal information as defined by California law. To submit a request, email <strong>privacy@studenteam.app</strong>.</p>
-<hr>
-<h2>10. Notifications</h2>
-<ul>
-<li><strong>Assignment reminders</strong> are implemented as <strong>local notifications</strong> scheduled on your device from assignment data synced to your account. Scheduling metadata (notification IDs) is kept on the device.</li>
-<li><strong>Forum activity</strong> uses <strong>in-app</strong> notification records stored in our database, as described in Section 2.9.</li>
-<li><strong>New direct messages</strong> may trigger <strong>local notifications</strong> on your device when enabled in your system settings, using data synced through our backend (see Section 2.9). The App does not require remote marketing push notifications for core functionality.</li>
-</ul>
-<hr>
-<h2>11. Third-party websites or services</h2>
-<p>The App may allow you to open links or documents in a browser or in-app web view. Those third parties have their own privacy practices; this policy does not apply there.</p>
-<hr>
-<h2>12. Changes to this policy</h2>
-<p>We may update this Privacy Policy from time to time. We will update the <strong>Last Updated</strong> date at the top. If changes are material, we may provide additional notice (for example in the App). Continued use after the effective date constitutes acceptance of the updated policy where permitted by law.</p>
-<hr>
-<h2>13. Contact</h2>
-<p><strong>Privacy:</strong> <a href="mailto:privacy@studenteam.app">privacy@studenteam.app</a><br>
-<strong>General:</strong> <a href="mailto:contact@studenteam.app">contact@studenteam.app</a><br>
-<strong>App name:</strong> StudenTeam</p>
-<hr>
-<p><em>This policy is intended to be clear and accurate. If anything here does not match what you see in the App, the App&apos;s actual data practices and App Store disclosures should be aligned &mdash; please contact us so we can correct documentation.</em></p>
-
+      <h2>1. Who We Are</h2>
+      <p>StudenTeam is a student-organizer and academic community application developed and operated by <strong>Ori</strong>.</p>
+      <ul>
+      <li><strong>Privacy contact:</strong> <a href="mailto:privacy@studenteam.app">privacy@studenteam.app</a>  </li>
+      <li><strong>General contact:</strong> <a href="mailto:contact@studenteam.app">contact@studenteam.app</a></li>
+      </ul>
+      <p>The App is distributed on <strong>iOS</strong> (Apple App Store) and may also be available on <strong>Android</strong>. This policy applies regardless of platform.</p>
+      <hr>
+      <h2>2. Information We Collect</h2>
+      <h3>2.1 Account &amp; authentication</h3>
+      <p>When you create an account or sign in, we process:</p>
+      <table>
+      <thead>
+      <tr>
+      <th>Data</th>
+      <th>Purpose</th>
+      </tr>
+      </thead>
+      <tbody><tr>
+      <td><strong>Email address</strong></td>
+      <td>Account identity, sign-in, and essential service messages (e.g. verification).</td>
+      </tr>
+      <tr>
+      <td><strong>Authentication credentials</strong></td>
+      <td>Password-based sign-in is handled by <strong>Supabase Auth</strong> (passwords are hashed; we do not store plaintext passwords).</td>
+      </tr>
+      <tr>
+      <td><strong>Session tokens</strong></td>
+      <td>Stored on your device using secure storage (<strong>expo-secure-store</strong>, backed by the device keychain / secure hardware where available) to keep you signed in.</td>
+      </tr>
+      <tr>
+      <td><strong>OAuth profile data</strong></td>
+      <td>If you use <strong>Sign in with Apple</strong> or <strong>Google</strong>, we receive identifiers and profile elements that those providers share with us (for example name, email as permitted by the provider, and profile image URL where applicable), in line with each provider&#39;s settings and policies.</td>
+      </tr>
+      </tbody></table>
+      <p>We do <strong>not</strong> receive your Apple or Google account password.</p>
+      <h3>2.2 Profile &amp; account settings (stored with your account)</h3>
+      <p>The following may be stored in our database (Supabase) and linked to your user account:</p>
+      <ul>
+      <li><strong>Display name</strong> — shown in the App and, when you use community features, may be visible to other users (for example next to forum posts or in message threads).</li>
+      <li><strong>Profile photo</strong> — if you upload an image or use a provider profile picture we sync, the image URL or file may be stored in our systems (including file storage) and can be visible to other users where the App shows your profile in community areas or conversations.</li>
+      <li><strong>Institution</strong> — optional link to an academic institution from our reference list.</li>
+      <li><strong>Account role</strong> — for example <strong>student</strong> or <strong>private tutor</strong>, used to label content and enable tutor-related features.</li>
+      <li><strong>Locale and timezone</strong> — used to present the App appropriately (defaults may apply if not set).</li>
+      </ul>
+      <h3>2.3 Optional details stored only on your device</h3>
+      <p>Certain extended profile fields (for example full name, age, city, degree details, study year, semester preferences, and tutor subject/course selections used in onboarding flows) are stored <strong>locally on your device</strong> (using <strong>AsyncStorage</strong>) and are <strong>not</strong> uploaded to our servers as part of that local profile store. Additionally, the following are stored only on your device:</p>
+      <ul>
+      <li><strong>Notification preferences</strong> — your choices for sounds, notifications, and alerts.</li>
+      <li><strong>Assignment notification IDs</strong> — scheduled local notification identifiers mapped to your assignments.</li>
+      <li><strong>Reported content cache</strong> — which posts, replies, or reviews you have already reported (to prevent duplicate reports).</li>
+      <li><strong>Avatar images</strong> — profile photo URIs you select are stored locally, though if you use OAuth providers (Google/Apple), your provider profile picture URL may be synced to our servers.</li>
+      </ul>
+      <p>If you separately choose to publish information in the forum or tutor listings, or send it in a private message, that content is stored on our servers as described below.</p>
+      <h3>2.4 Academic &amp; organizer data (your account, cloud-synced)</h3>
+      <p>Data you enter into organizer features is stored in your account on our backend so it can sync across devices. This includes, depending on what you use:</p>
+      <ul>
+      <li><strong>Courses</strong> — name, code, credits, year, semester, grades, labels, etc.</li>
+      <li><strong>Exams</strong> — titles, dates, times, locations, notes, links to courses.</li>
+      <li><strong>Assignments</strong> — titles, due dates, status, notes, course links.</li>
+      <li><strong>Schedule</strong> — slots, times, locations, notes.</li>
+      <li><strong>Grades</strong> — entries, weights, scores, dates.</li>
+      <li><strong>Study sessions</strong> — timing, duration, mode, linked courses.</li>
+      <li><strong>Gamification / stats</strong> — for example streaks, points, levels associated with your account.</li>
+      <li><strong>Practice / questions</strong> — content you create for self-study (prompts, answers, difficulty, course links), where you use those features.</li>
+      </ul>
+      <h3>2.5 Community forum &amp; user-generated content</h3>
+      <p>If you use the <strong>forum</strong> or related features, we store content you submit on our servers, including:</p>
+      <ul>
+      <li><strong>Posts and replies</strong> — text, images (PNG, JPG, GIF), and file attachments (PDF, Word, Excel, PowerPoint, and other document formats) you upload.</li>
+      <li><strong>Metadata</strong> — subject/course association, post type (question, tip, summary, resource, discussion), timestamps, moderation status, reply counts, and similar fields required to operate the forum.</li>
+      <li><strong>Tutor marketplace listings</strong> — posts intended to connect students and private tutors (for example offers or requests); may include descriptive text, pricing indications you type (in NIS), teaching mode (in-person/online), and attachments you choose to upload.</li>
+      <li><strong>Forum reports</strong> — when you report content as inappropriate, we store the report record (reporter ID, reported content ID, reason, timestamp) for moderation purposes. These are accessible only to app administrators and service-role access.</li>
+      <li><strong>Forum moderation metadata</strong> — including warning counts, blocked status, and admin flags on user profiles.</li>
+      </ul>
+      <p>Forum content you publish may be <strong>visible to other users</strong> of the App according to how the feature is designed (for example by subject or listing type). Your <strong>display name</strong> and <strong>profile image</strong> (if any) may appear alongside your content.</p>
+      <p><strong>IMPORTANT: Files uploaded to the forum (images and documents) and tutor profile documents (CV/certifications) are stored in public storage buckets on Supabase Storage</strong>, which means they are <strong>accessible by anyone with the direct URL</strong>. Do not upload sensitive personal information, passwords, or confidential documents unless you intend them to be publicly accessible.</p>
+      <p>We process forum submissions through <strong>Supabase Edge Functions</strong> (<code>forum-submit</code>) with the following optional safety features:</p>
+      <ul>
+      <li><strong>OpenAI text moderation</strong> — When enabled (<code>FORUM_USE_OPENAI_MODERATION=true</code>), forum post and reply text is analyzed by <strong>OpenAI&#39;s Moderation API</strong> to detect policy violations (hate speech, violence, sexual content, etc.). Your text content is sent to OpenAI for this purpose.</li>
+      <li><strong>Hugging Face image moderation</strong> — When enabled (<code>FORUM_USE_HF_IMAGE_MODERATION=true</code>), raster images (not documents) uploaded to the forum may be analyzed by <strong>Hugging Face</strong> models to detect inappropriate visual content (NSFW). Your image data is processed by Hugging Face for this purpose.</li>
+      </ul>
+      <p>These moderation services operate in <strong>fail-open mode</strong> — if they are unavailable, your content will still be published. We do not share these moderation results with third parties beyond the analysis itself.</p>
+      <h3>2.6 Private tutor profile documents</h3>
+      <p>If you register as a <strong>private tutor</strong> and upload optional documents (for example a CV or certifications in PDF or image formats), those files are stored in the <strong>Supabase Storage bucket <code>tutor-profile-documents</code></strong>, which has a <strong>public read policy</strong>.</p>
+      <p><strong>This means:</strong></p>
+      <ul>
+      <li>Files uploaded as tutor documents are <strong>publicly accessible</strong> to anyone with the direct URL.</li>
+      <li>They are intended to support your public tutor profile visible to students in the App&#39;s private tutor marketplace.</li>
+      <li>Do not upload sensitive personal information (ID numbers, passwords, financial details, etc.) unless you intend them to be publicly viewable.</li>
+      </ul>
+      <p>The App displays a warning message when you upload tutor documents informing you that these files will be viewable in the forum/marketplace.</p>
+      <h3>2.7 Private direct messages</h3>
+      <p>If you use <strong>private messaging</strong> (one-to-one conversations with other users), we store on our servers:</p>
+      <ul>
+      <li><strong>Conversation records</strong> — identifiers linking you and the other participant, timestamps, and optional link to a related forum post if the conversation was started from a post.</li>
+      <li><strong>Messages</strong> — text you send and optional <strong>image attachments</strong> and <strong>file attachments</strong> (file URLs and display names stored in the database). Images and files uploaded in direct messages use the same public storage mechanisms as forum uploads.</li>
+      <li><strong>Delivery and read state</strong> — for example when a message was read, as needed to show read status in the App.</li>
+      <li><strong>Blocking</strong> — if you block another user for messaging, we store that relationship (in the <code>user_blocks</code> table) so the App can enforce blocks. You can manage blocked users from the App settings.</li>
+      </ul>
+      <p>Direct messages are <strong>not</strong> published to the forum; they are intended to be visible <strong>only to you and the other participant</strong> in that conversation (and to our systems as needed to operate the feature, secure the service, and handle abuse reports).</p>
+      <p><strong>Note:</strong> Files and images attached to direct messages, like forum attachments, are stored in <strong>public storage buckets</strong> and may be accessible to anyone with the direct URL. Do not send sensitive personal information, passwords, or confidential documents through direct messages.</p>
+      <p>We may process messages through <strong>Supabase</strong> (database, storage, and server-side functions) for delivery, moderation when reported, and safety.</p>
+      <h3>2.8 Tutor session coordination (in-app scheduling)</h3>
+      <p>The App may allow students and private tutors to <strong>coordinate lesson times</strong> (for example proposals, confirmations, rescheduling, or cancellation of suggested sessions) and to display <strong>context such as an hourly rate in NIS</strong> for scheduling purposes. Related records stored in our database (<code>tutor_session_bookings</code>) include:</p>
+      <ul>
+      <li>Session proposal details (date, time, duration, hourly rate)</li>
+      <li>Booking status (pending, confirmed, cancelled, completed)</li>
+      <li>Participant identifiers (student and tutor user IDs)</li>
+      <li>Links to related forum posts or conversations</li>
+      <li>Estimated revenue calculations (UI-only, not financial transactions)</li>
+      </ul>
+      <p>This feature is for <strong>coordination and scheduling only</strong>; the App does <strong>not</strong> process payments for lessons. All financial arrangements, meetings, and contracts are <strong>solely between you and the other party</strong> outside the App (see our Terms of Service).</p>
+      <h3>2.9 In-app notifications and subscriptions</h3>
+      <p>We store <strong>in-app notification records</strong> in our database for the following purposes:</p>
+      <ul>
+      <li><strong>Forum reply notifications</strong> (<code>forum_reply_notifications</code>) — When someone replies to a forum thread you participate in or subscribe to.</li>
+      <li><strong>Forum tutor booking notifications</strong> (<code>forum_tutor_booking_notifications</code>) — When students or tutors propose, confirm, reschedule, or cancel tutor sessions.</li>
+      <li><strong>Direct message notifications</strong> (<code>direct_message_notifications</code>) — Helper records to alert you of new direct messages when you are not actively viewing the conversation.</li>
+      <li><strong>Forum subscription preferences</strong> (<code>forum_post_reply_subscribers</code>) — Which forum threads you have subscribed to for reply notifications.</li>
+      </ul>
+      <p>These records are tied to your account and displayed in the App&#39;s notifications inbox. The App uses <strong>Supabase Realtime subscriptions</strong> (WebSocket-based) to listen for new notifications and direct messages while you are actively using the App, triggering local on-device notifications as needed.</p>
+      <p>This is separate from <strong>local assignment reminders</strong> scheduled on your device (see Section 10).</p>
+      <h3>2.10 Tutor reviews</h3>
+      <p>If you are a student and you write a <strong>review</strong> for a private tutor, we store:</p>
+      <ul>
+      <li><strong>Review text</strong> and <strong>rating</strong> (e.g., 1-5 stars).</li>
+      <li><strong>Metadata</strong> — reviewer ID, tutor ID, timestamps, visibility status.</li>
+      <li><strong>Reports</strong> — If other users report a review as inappropriate, those reports are stored in <code>tutor_review_reports</code> for moderation.</li>
+      </ul>
+      <p>Reviews are visible to other App users viewing the tutor&#39;s profile. If you report a review, we store your report record for moderation purposes (admin-accessible only).</p>
+      <h3>2.11 User statistics and gamification</h3>
+      <p>The App may track <strong>gamification metrics</strong> tied to your account, including:</p>
+      <ul>
+      <li><strong>Streaks</strong> — consecutive days of activity.</li>
+      <li><strong>Points</strong> and <strong>levels</strong> — based on your use of study features.</li>
+      <li><strong>Achievement milestones</strong> — stored in the <code>user_stats</code> table.</li>
+      </ul>
+      <p>These are used solely to provide motivational features within the App and are not shared with third parties for marketing purposes.</p>
+      <h3>2.12 Local device data (not sent to us)</h3>
+      <p>Examples of data that typically remain <strong>on-device</strong> unless you explicitly upload or publish something:</p>
+      <ul>
+      <li>Preferences for <strong>local assignment reminders</strong> (scheduled notification identifiers mapped to your assignments) stored in <strong>AsyncStorage</strong>.</li>
+      <li><strong>Notification preferences</strong> (sounds, alerts) stored locally.</li>
+      <li><strong>Reported content cache</strong> (which posts/replies/reviews you reported) stored locally.</li>
+      <li><strong>Extended profile fields</strong> (full name, age, city, degree, study year) stored in <strong>AsyncStorage</strong> via <code>ProfileDetails</code>.</li>
+      <li><strong>Avatar image URIs</strong> selected from your device stored locally (OAuth avatars may sync to server).</li>
+      <li>Cached copies of files you open for your own use.</li>
+      <li>App preferences and UI state (theme, language, onboarding completion status).</li>
+      </ul>
+      <h3>2.13 Technical &amp; automatic data</h3>
+      <ul>
+      <li>We <strong>do not</strong> embed third-party <strong>advertising</strong> or <strong>analytics</strong> SDKs for behavioral tracking in the App (no Firebase Analytics, Segment, Amplitude, Sentry, etc.).</li>
+      <li>When you use online features, <strong>standard technical information</strong> is processed automatically as part of operating any internet service — for example <strong>IP address</strong>, timestamps, request metadata, device OS version, and App version — by us and by our infrastructure providers (such as <strong>Supabase</strong>, hosting networks, and CDN providers) for <strong>security</strong>, <strong>fraud prevention</strong>, <strong>reliability</strong>, <strong>abuse detection</strong>, and <strong>legal compliance</strong>.</li>
+      <li>We do <strong>not</strong> sell this information to third parties for marketing purposes.</li>
+      <li><strong>Device information accessed by the App:</strong><ul>
+      <li><strong>App version and name</strong> (via <code>expo-constants</code>) displayed in About/Settings screens.</li>
+      <li><strong>Locale and timezone</strong> (via <code>expo-localization</code>) for UI localization (Hebrew/English).</li>
+      <li><strong>Camera and photo library access</strong> (via <code>expo-image-picker</code>) for profile photo upload and forum/DM image attachments — only when you explicitly trigger these features. Permission purpose strings (in Hebrew) are declared in <code>app.json</code>.</li>
+      <li><strong>Document picker</strong> (via <code>expo-document-picker</code>) for forum/DM file attachments.</li>
+      <li><strong>Notification permissions</strong> (via <code>expo-notifications</code>) for local assignment reminders and in-app activity alerts.</li>
+      <li><strong>Web browser</strong> (via <code>expo-web-browser</code>) to open legal documents and external links.</li>
+      </ul>
+      </li>
+      </ul>
+      <p>The App does <strong>not</strong> access your device GPS location. Any &quot;location&quot; fields in exams or schedule slots are <strong>user-entered text</strong> (e.g., classroom names), not geographic coordinates.</p>
+      <h3>2.14 Bug reports and support</h3>
+      <p>If you send a <strong>bug report</strong> from the App, we process:</p>
+      <ul>
+      <li>The <strong>message text</strong> you enter (please avoid including passwords, payment details, or unnecessary personal data).</li>
+      <li><strong>Account-related identifiers</strong> needed to route the report (for example your <strong>email address</strong> or user ID associated with your session), so we can investigate and reply if needed.</li>
+      <li><strong>Submission timestamp</strong> and other metadata for tracking purposes.</li>
+      </ul>
+      <p>Reports are submitted through the <strong>Supabase Edge Function</strong> <code>send-bug-report</code>, which:</p>
+      <ol>
+      <li>Stores the report in the <code>bug_reports</code> table in our database.</li>
+      <li>Sends an email notification to our support team via <strong>Resend</strong> and/or <strong>Gmail SMTP</strong>, depending on our server configuration.</li>
+      </ol>
+      <p><strong>Third-party email providers</strong> (Resend and/or Gmail) process your bug report content and email address in transit to deliver the notification to our team. They handle this data according to their own privacy policies:</p>
+      <ul>
+      <li><strong>Resend</strong>: <a href="https://resend.com/legal/privacy-policy">https://resend.com/legal/privacy-policy</a></li>
+      <li><strong>Google Gmail</strong>: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+      </ul>
+      <p>The App implements rate limiting (server-side and client-side cooldown) to prevent abuse of the bug report system.</p>
+      <p>We use this information only to <strong>diagnose issues, improve the App, and respond to you</strong> where appropriate.</p>
+      <hr>
+      <h2>3. How We Use Your Information</h2>
+      <p>We use personal information to:</p>
+      <table>
+      <thead>
+      <tr>
+      <th>Purpose</th>
+      <th>Typical legal basis (where GDPR applies)</th>
+      </tr>
+      </thead>
+      <tbody><tr>
+      <td>Provide sign-in, sync, and core organizer features</td>
+      <td>Performance of a contract / steps at your request</td>
+      </tr>
+      <tr>
+      <td>Operate the forum, marketplace listings, direct messaging, tutor coordination, and in-app notifications</td>
+      <td>Performance of a contract; legitimate interests in operating a safe community</td>
+      </tr>
+      <tr>
+      <td>Moderate content, enforce rules, respond to reports</td>
+      <td>Legitimate interests; legal obligations</td>
+      </tr>
+      <tr>
+      <td>Store and display profile and content you choose to publish or send</td>
+      <td>Performance of a contract; consent where required (e.g. certain optional uploads)</td>
+      </tr>
+      <tr>
+      <td>Secure the service and troubleshoot errors</td>
+      <td>Legitimate interests</td>
+      </tr>
+      <tr>
+      <td>Comply with law and respond to lawful requests</td>
+      <td>Legal obligation</td>
+      </tr>
+      <tr>
+      <td>Review bug reports and provide support</td>
+      <td>Legitimate interests / performance of a contract</td>
+      </tr>
+      </tbody></table>
+      <p>We <strong>do not</strong> sell your personal information. We <strong>do not</strong> use your data for third-party advertising profiling.</p>
+      <hr>
+      <h2>4. How Information Is Shared</h2>
+      <p>We share your information in the following circumstances:</p>
+      <h3>4.1 Service providers (data processors)</h3>
+      <ul>
+      <li><strong>Supabase</strong> — for database, authentication, file storage (public storage buckets), server-side Edge Functions, and real-time subscriptions. They process data on our instructions. Privacy policy: <a href="https://supabase.com/privacy">https://supabase.com/privacy</a></li>
+      <li><strong>Resend</strong> — email delivery service for bug reports (when configured). Privacy policy: <a href="https://resend.com/legal/privacy-policy">https://resend.com/legal/privacy-policy</a></li>
+      <li><strong>Gmail / Google Workspace SMTP</strong> — email delivery for bug reports (when configured). Privacy policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+      </ul>
+      <h3>4.2 AI and moderation services (optional, when enabled)</h3>
+      <ul>
+      <li><strong>OpenAI</strong> — text moderation for forum submissions (when <code>FORUM_USE_OPENAI_MODERATION=true</code>). Your forum text content is sent to OpenAI&#39;s Moderation API. Privacy policy: <a href="https://openai.com/policies/privacy-policy">https://openai.com/policies/privacy-policy</a></li>
+      <li><strong>Hugging Face</strong> — image moderation for forum uploads (when <code>FORUM_USE_HF_IMAGE_MODERATION=true</code>). Raster images are analyzed for inappropriate content. Privacy policy: <a href="https://huggingface.co/privacy">https://huggingface.co/privacy</a></li>
+      </ul>
+      <p>These moderation features are <strong>optional server-side configurations</strong> and may be enabled or disabled by us without notice. They operate in <strong>fail-open mode</strong> — if unavailable, content is still published.</p>
+      <h3>4.3 Authentication providers</h3>
+      <ul>
+      <li><strong>Apple</strong> — if you use Sign in with Apple. Privacy policy: <a href="https://www.apple.com/legal/privacy/">https://www.apple.com/legal/privacy/</a></li>
+      <li><strong>Google</strong> — if you use Google Sign-In or Sign in with Google. Privacy policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></li>
+      </ul>
+      <h3>4.4 Other users</h3>
+      <ul>
+      <li><strong>Forum and marketplace content</strong> you publish is visible to other App users according to the feature design (by subject, listing type, etc.).</li>
+      <li><strong>Direct messages</strong> are shared only with the <strong>other participant(s)</strong> in that conversation (and with our systems for delivery and moderation purposes).</li>
+      <li><strong>Profile information</strong> (display name, avatar, user role) may be visible to other users in community features.</li>
+      <li><strong>Public storage</strong> — Files uploaded to forum posts, direct messages, and tutor profile documents are stored in <strong>publicly accessible storage buckets</strong> and may be viewed by anyone with the direct URL.</li>
+      </ul>
+      <h3>4.5 Legal compliance and safety</h3>
+      <p>We may disclose information:</p>
+      <ul>
+      <li>If required by law, regulation, legal process, or governmental request.</li>
+      <li>If we reasonably believe disclosure is necessary to protect rights, property, safety, or the integrity of the service.</li>
+      <li>In connection with suspected fraud, abuse, or violations of these Terms or applicable law.</li>
+      <li>In connection with a business transaction (merger, acquisition, sale of assets), subject to confidentiality obligations.</li>
+      </ul>
+      <h3>4.6 No selling of personal information</h3>
+      <p>We do <strong>not</strong> sell your personal information to third parties for their own marketing purposes.</p>
+      <hr>
+      <h2>5. Data location &amp; international transfers</h2>
+      <p>Your data is processed using cloud infrastructure operated by <strong>Supabase</strong> and may be stored or processed in the regions configured for our project (potentially including the <strong>European Union</strong> or other regions Supabase supports). If you are outside those regions, your information may be <strong>transferred internationally</strong>. We rely on appropriate safeguards where required (such as standard contractual clauses or equivalent mechanisms offered by our providers).</p>
+      <hr>
+      <h2>6. Data retention</h2>
+      <h3>6.1 Active accounts</h3>
+      <p>We retain account and content data <strong>while your account is active</strong> and as needed to provide the service, including:</p>
+      <ul>
+      <li>Authentication credentials and session tokens.</li>
+      <li>Profile information, academic organizer data (courses, exams, assignments, grades, schedule).</li>
+      <li>Forum posts, replies, direct messages, tutor listings, reviews, and session bookings.</li>
+      <li>Notification records, subscriptions, and user statistics.</li>
+      <li>Bug reports submitted from the App.</li>
+      </ul>
+      <h3>6.2 Account deletion</h3>
+      <p>If you <strong>delete your account</strong> (via the App&#39;s Settings → Delete Account feature), we invoke the <strong><code>delete_current_user()</code> SECURITY DEFINER function</strong>, which deletes your <code>auth.users</code> record from Supabase Auth.</p>
+      <p><strong>What happens after deletion:</strong></p>
+      <ul>
+      <li>Your personal authentication data (email, password hash, session tokens) is deleted.</li>
+      <li>Associated data in tables with foreign key relationships to your user ID will be handled according to database cascade rules (typically deleted or anonymized).</li>
+      <li>We will delete or anonymize associated personal data within a reasonable period, generally <strong>within 30 days</strong>, subject to backup cycles and legal retention requirements.</li>
+      <li><strong>Forum content, messages, and tutor listings</strong> you published may remain in the database if they are referenced by other users&#39; interactions (e.g., replies to your posts), but will be dissociated from your identifiable account information or marked as from a deleted user.</li>
+      <li><strong>Files uploaded to public storage</strong> (forum attachments, tutor documents, DM files) are <strong>not automatically deleted</strong> from Supabase Storage upon account deletion. If you want specific files removed, contact us at <strong><a href="mailto:privacy@studenteam.app">privacy@studenteam.app</a></strong> with file URLs or identifying information before deleting your account.</li>
+      </ul>
+      <h3>6.3 Content seen by others</h3>
+      <p><strong>Important:</strong> Forum content, messages, or files you sent may have been <strong>seen, downloaded, or copied by other users</strong> before deletion. We cannot control copies made by others outside our systems.</p>
+      <h3>6.4 Local data</h3>
+      <p>Local on-device data (AsyncStorage, SecureStore) remains until you <strong>uninstall the App</strong> or <strong>clear app storage</strong> from your device settings. Uninstalling the App does <strong>not</strong> delete your account or server-side data; you must use the in-app delete account feature or contact us.</p>
+      <hr>
+      <h2>7. Security</h2>
+      <p>We implement appropriate technical and organizational measures, including:</p>
+      <ul>
+      <li><strong>Encryption in transit (TLS/HTTPS)</strong> for network communication with our backend services.</li>
+      <li><strong>Secure credential storage</strong> on device using <strong>custom encrypted storage</strong> (<code>LargeSecureStore</code>): session tokens are encrypted using <strong>AES-CTR</strong> with encryption keys stored in <strong>Expo SecureStore</strong> (backed by iOS Keychain / Android Keystore), and ciphertext is stored in <strong>AsyncStorage</strong>.</li>
+      <li><strong>Database access controls (Row-Level Security)</strong> — Many tables use Supabase RLS policies so users cannot read other users&#39; <strong>private</strong> organizer data (courses, exams, assignments, grades, personal events, etc.) or <strong>other users&#39; direct messages</strong>.</li>
+      <li><strong>Security definer functions</strong> — Sensitive operations (account deletion, tutor booking management) use SECURITY DEFINER stored procedures with restricted access.</li>
+      <li><strong>Service-role restrictions</strong> — Forum reports and certain admin operations are accessible only to service-role API keys, not user sessions.</li>
+      <li><strong>Community content</strong> is intentionally readable by other users <strong>only</strong> where the product exposes it (forum/listings), not your private grades or personal planner data.</li>
+      <li><strong>Public storage awareness</strong> — Files uploaded to forum and direct messages are stored in <strong>public storage buckets</strong> with world-readable access policies. Users are informed in the App and in these legal documents.</li>
+      </ul>
+      <p><strong>Important security considerations:</strong></p>
+      <ul>
+      <li>No method of transmission or storage is 100% secure.</li>
+      <li><strong>Public storage buckets</strong> mean that files you upload (forum attachments, tutor documents, DM files) are accessible to anyone with the direct URL. Do not upload sensitive personal information.</li>
+      <li>We encourage strong passwords, device security (screen lock), and caution when sharing content in the App.</li>
+      <li>If you suspect unauthorized access to your account, contact us immediately at <strong><a href="mailto:privacy@studenteam.app">privacy@studenteam.app</a></strong>.</li>
+      </ul>
+      <hr>
+      <h2>8. Children&#39;s privacy</h2>
+      <p>The App is <strong>not directed at children under 13</strong> (or the minimum age required in your jurisdiction). We do not knowingly collect personal information from children below that age. If you believe we have done so, contact <strong><a href="mailto:privacy@studenteam.app">privacy@studenteam.app</a></strong> and we will take appropriate steps to delete the information.</p>
+      <hr>
+      <h2>9. Your rights</h2>
+      <p>Depending on your location, you may have rights to <strong>access</strong>, <strong>rectify</strong>, <strong>delete</strong>, <strong>restrict</strong>, or <strong>object</strong> to certain processing, and <strong>data portability</strong>. You may also withdraw consent where processing is consent-based.</p>
+      <p>To exercise these rights, contact <strong><a href="mailto:privacy@studenteam.app">privacy@studenteam.app</a></strong>. We will respond within <strong>30 days</strong> where applicable law requires it.</p>
+      <p>If you are in the <strong>EEA/UK</strong>, you may lodge a complaint with your local data protection authority.</p>
+      <p><strong>California residents (summary):</strong> You may have rights under the <strong>CCPA/CPRA</strong> (for example to know, delete, and opt out of sale/sharing). We do not sell personal information as defined by California law. To submit a request, email <strong><a href="mailto:privacy@studenteam.app">privacy@studenteam.app</a></strong>.</p>
+      <hr>
+      <h2>10. Notifications</h2>
+      <p>The App uses notifications in the following ways:</p>
+      <ul>
+      <li><strong>Assignment reminders</strong> — Implemented as <strong>local notifications</strong> scheduled on your device using <strong>expo-notifications</strong>. Scheduling metadata (notification IDs mapped to assignments) is stored locally on your device in <strong>AsyncStorage</strong>. No remote push notification service is used for assignment reminders.</li>
+      <li><strong>Forum activity</strong> — Uses <strong>in-app notification records</strong> stored in our database (for example when someone replies to a thread you participate in or subscribes to). These are displayed in the App&#39;s notifications inbox.</li>
+      <li><strong>New direct messages</strong> — May trigger <strong>local notifications</strong> on your device when enabled in your system settings. The App uses <strong>Supabase Realtime subscriptions</strong> to detect new messages and schedule local notifications when you are not actively viewing the conversation. No remote push service (FCM, APNs) token upload or remote marketing push is required for core functionality.</li>
+      <li><strong>Tutor booking notifications</strong> — In-app notification records for session proposals, confirmations, and changes are stored in the database (<code>forum_tutor_booking_notifications</code>) and displayed in the App.</li>
+      </ul>
+      <p><strong>Notification permissions:</strong></p>
+      <p>The App requests notification permissions from your device OS (iOS/Android) to display local notifications. You can manage these permissions in your device system settings. The App is configured in <strong>production mode</strong> for <code>expo-notifications</code> with no custom notification sounds.</p>
+      <hr>
+      <h2>11. Third-party websites or services</h2>
+      <p>The App may allow you to open links or documents in a browser or in-app web view. Those third parties have their own privacy practices; this policy does not apply there.</p>
+      <hr>
+      <h2>12. Changes to this policy</h2>
+      <p>We may update this Privacy Policy from time to time. We will update the <strong>Last Updated</strong> date at the top. If changes are material, we may provide additional notice (for example in the App). Continued use after the effective date constitutes acceptance of the updated policy where permitted by law.</p>
+      <hr>
+      <h2>13. Contact</h2>
+      <p><strong>Privacy:</strong> <a href="mailto:privacy@studenteam.app">privacy@studenteam.app</a><br><strong>General:</strong> <a href="mailto:contact@studenteam.app">contact@studenteam.app</a><br><strong>App name:</strong> StudenTeam  </p>
+      <hr>
+      <p><em>This policy is intended to be clear and accurate. If anything here does not match what you see in the App, the App&#39;s actual data practices and App Store disclosures should be aligned — please contact us so we can correct documentation.</em></p>
+      
     </div>
   </div>
 </body>
